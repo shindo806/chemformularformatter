@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./semantic-ui/semantic.min.css">
+  <link rel="stylesheet" href="./semantic-ui//semantic.min.js">
+  <link rel="stylesheet" href="./styles/custom-style.css">
+  <title>Test</title>
+</head>
+
+<body>
+  <div class="ui container">
+    <div class="tabs">
+      <button class="ui labeled icon button format-tab">
+        <i class="list ol icon"></i>
+        Định dạng đề (1 -> 40)
+      </button>
+      <button class="ui labeled icon button format-tab">
+        <i class="list ul icon"></i>
+        Định dạng đề (41 -> 80)
+      </button>
+      <button class="ui right labeled icon button format-tab">
+        <i class="flask icon"></i>
+        Định dạng công thức hóa học
+      </button>
+
+    </div>
+    <div class="input-fied">
+      <textarea id="input-field--user" name="input" id="input" cols="30" rows="10" class="input-field--user"></textarea>
+    </div>
+    <div id="result"></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="./molecularformula.js"></script>
+  <script src="./chemformular.js"></script>
+</body>
+
+</html>
